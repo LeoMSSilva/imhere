@@ -3,6 +3,7 @@ import { View } from 'react-native';
 
 import { Form } from '~/components/Form';
 import { Header } from '~/components/Header';
+import { ListParticipants } from '~/components/ListParticipants';
 
 import { styles } from './styles';
 
@@ -21,6 +22,10 @@ export const Home = () => {
         eventDate="Sexta, 4 de Novembro de 2022."
       />
       <Form
+        participants={participants}
+        setParticipants={setParticipants}
+      />
+      <ListParticipants
         participants={participants}
         setParticipants={setParticipants}
       />
