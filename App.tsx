@@ -1,4 +1,6 @@
-import { StatusBar, Text } from 'react-native';
+import { StatusBar } from 'react-native';
+
+import { Home } from '~/screens/Home';
 
 export default function App() {
   return (
@@ -8,7 +10,7 @@ export default function App() {
         backgroundColor="transparent"
         barStyle="light-content"
       />
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Home />
     </>
   );
 }
