@@ -2,7 +2,7 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "jsx": "react-native",
-    "target": "es2021",
+    "target": "es2022",
     "strict": true,
     "removeComments": true,
     "rootDir": ".",
